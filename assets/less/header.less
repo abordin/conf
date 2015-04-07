@@ -1,0 +1,58 @@
+@import 'mixins';
+
+.header {
+	background: url('../img/destaque.jpeg') no-repeat;
+	background-size: cover;
+	padding-top: 2em;
+
+	.main-menu {
+		text-align: center;
+	
+		.menu-item {
+			display: inline-block;
+			margin: 0 0.1em 2.5em 0;
+
+			a {
+				color: white;
+				background: rgba(255, 255, 255, 0.1);
+				border-radius: 4px;
+				padding: 1em;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+			
+			a:hover {
+				background-color: #48A3A6;
+				color: white;
+				font-weight: bold;
+				.transition(background-color 0.5s);
+			}
+		}
+	}
+
+	.jumbotron {
+		padding: 0em 0 2.8em 0;
+		text-align: center;
+
+		.panel {
+			color: white;
+			text-shadow: 4px 4px 10px black;
+
+			.title {
+				font-size: 3em;
+				@media (min-width: 380px) {
+					font-size: 4.5em;
+				}	
+			}
+			
+			.subtitle {
+				color: rgb(100,255,100);
+				font-size: 3em;
+				margin-top: 0.5em;				
+			}
+		}
+		.subscribe {
+			margin-top: 2em;
+		}
+	}
+}

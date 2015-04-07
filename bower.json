@@ -1,0 +1,17 @@
+{
+  "name": "Conference Boilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "flaviohenriquealmeida <flaviohenriquealmeida@gmail.com>"
+  ],
+  "description": "Conference Boilerplate",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

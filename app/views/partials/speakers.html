@@ -1,0 +1,22 @@
+<section id="panel-speakers" class="panel panel-speakers">
+	<div class="container">
+		<div class="about-speakers">
+			<h2 class="title">PALESTRANTES</h2>
+			<h3 class="subtitle">{{painelPalestrante.subtitulo}}</h3>
+			<p class="call">{{painelPalestrante.chamada1}}</p>
+		</div>
+
+		<ul class="speakers">
+			{% for palestrante in painelPalestrante.palestrantes %}
+			<li class="speaker">
+				<figure class="speaker-portrait">
+					<img src="{{palestrante.img}}">
+					<figcaption class="speaker-name">{{palestrante.nome}}</figcaption>
+					<p class="speaker-bio">{{palestrante.miniBio}}</p>
+				</figure>
+				<p class="speach">{{palestrante.palestra}}</p>
+			</li>
+			{% endfor %}
+		</ul>
+	</div><!-- fim container -->
+</section><!-- fim painel-palestrantes -->

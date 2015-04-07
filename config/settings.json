@@ -1,0 +1,71 @@
+{
+	"nomeEvento": "Conferência XXX 2015", 
+	"painelDestaque": {
+		"titulo": "Uma conferência XXX em solo carioca",
+		"subtitulo": "30MAIO|RIO"
+	}, 
+	"painelSobre": {
+		"titulo": "Muito conteúdo: do XXX ao XXX.",
+		"subtitulo": "30 de Maio de 2015 - na XXXX",
+		"chamada1": "Com a XXX abordaremos o que há de novidade e conhecimentos essenciais a um desenvolver mobile.",
+		"chamada2": "É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui."
+	},
+	"painelPalestrante": {
+		"subtitulo": "Aprenda com palestrantes que são referências na comunidade",
+		"chamada1": "Todas as palestras foram escolhidas pensando, exclusivamente, em agregar conhecimento a você.",
+		"palestrantes": [{
+			"nome": "Flávio Almeida", 
+			"miniBio": "Desenvolvedor e instrutor - Caelum",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "To be or not to be MEAN"
+		},
+		{
+			"nome": "Jimie Hendrix", 
+			"miniBio": "Director of Core Engineering na XXXX",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "O que aprendemos na XXXX sobre XXXX?"
+		},
+		{
+			"nome": "Stevie Ray Vaughan", 
+			"miniBio": "Coordenador da XXX",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "Como o XXX vai mudar sua vida"
+		},
+		{
+			"nome": "Yngwie Malmsteen", 
+			"miniBio": "Evangelista XXX",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "Desmistificando o XXX"
+		},
+		{
+			"nome": "Carl Rogers", 
+			"miniBio": "Desenvolvedor - XXX.com",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "Arquitetura de apps XXX"
+		},
+		{
+			"nome": "Sigmundo Freud", 
+			"miniBio": "Líder Técnico - XXXX",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "XXXX XXXX XXXX"
+		},
+		{
+			"nome": "Carl Jung", 
+			"miniBio": "Desenvolvedor e instrutor - XXXX",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "XXXXX"
+		},
+		{
+			"nome": "Stanislav Grof", 
+			"miniBio": "Desenvolvedor - XXX",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "Nome de palestra gigante com muito detalhe que nem sempre cabe no espaço aqui"
+		},
+		{
+			"nome": "Waldo Vieira", 
+			"miniBio": "Desenvolvedor - XXX",
+			"img": "img/palestrantes/placeholder.jpeg", 
+			"palestra": "Arquitetando XXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX"
+		}]
+	}
+}
